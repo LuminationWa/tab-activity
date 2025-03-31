@@ -7,7 +7,8 @@
     "default_popup": "/display/extension.html"
   },
   "background": {
-    "service_worker": "/serviceWorkers/tracker.js"
+    "service_worker": "/serviceWorkers/tabTracker.js",
+    "service_worker": "/serviceWorkers/browserTracker.js"
   },
-  "permissions": ["alarms"]
+  "permissions": ["tabs", "alarms"]
 }
